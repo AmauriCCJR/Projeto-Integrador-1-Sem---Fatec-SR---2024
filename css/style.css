@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*Principal do html*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+header{
+    margin-top: 0;
+    height: 150px;
+    background-image: linear-gradient(#45CAFF, #013d55);
+    padding-top: 10px;
+}
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin:auto;
+    padding-top:6px;
+}
+nav{
+    background-color: #2B2A2A;
+    height: 70px;   
+}
+footer{
+    margin-top: 50px;
+    background-image: linear-gradient(#1498DA,#0B5174);
+    padding-bottom: 2%;
+}
+ol{
+    padding-left: 5%;
+}
+.navMenuItem:hover{
+    color: #F39237;
+}
+
+.NomeSite{
+        font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        -webkit-text-stroke-width: 8px;
+        -webkit-text-stroke-color: #000;
+        font-size: 100px;
+        padding-left: 10%;
+        position: sticky;
+        list-style: none;
+        text-decoration: none;     
+}
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footerRedesSociais{
+    color: white;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 35px;
+}
+.imgRedeSocial{
+    height: 20px;
+    width: 20px;
+}
+.nomeRedeSocial{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    padding-left: 5px;
+}
+.footerright{
+    float: right;
+    margin-right: 5%;
+}
+.atendFooter{
+    width: 40px;
+    height: 40px;
+    padding-right: 50px;
+}
+/*Codigos das paginas*/
